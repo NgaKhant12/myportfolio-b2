@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/developer.png" type="image/x-icon">
+    <title>Contact - Me</title>
+</head>
+
+<body>
+    <h1>Contact Form</h1>
+    <form action="index.html">
+        <div>
+            <label for="">Name</label>
+            <input type="text" />
+        </div>
+
+        <div>
+            <label for="">Email</label>
+            <input type="email" />
+        </div>
+
+        <div>
+            <label for="">Age</label>
+            <input type="number" min="18" max="45" step="2" />
+        </div>
+
+        <div>
+            <label for="">Gender</label>
+            <input type="radio" name="gender" id="" checked />Male
+            <input type="radio" name="gender" id="" />Female
+            <input type="radio" name="gender" id=""> Prefer not to say
+        </div>
+
+        <div>
+            <label for="">Hobbies and Interests</label>
+            <input type="checkbox" name="" id="" checked />Travelling
+            <input type="checkbox" name="" id="" />Reading
+            <input type="checkbox" name="" id="" />Gardening
+        </div>
+
+        <div>
+            <label for="">DOB</label>
+            <input type="date" name="" id="" />
+        </div>
+
+        <div>
+            <label for="">Upload Photo</label>
+            <input type="file" name="" id="" accept="image/*"> <!-- image/* or image/png or image/jpeg-->
+        </div>
+
+        <div>
+            <label for="">Location</label>
+            <select name="" id="">
+                <option value="">Yangon</option>
+                <option value="" selected>Mandalay</option>
+                <option value="">Others</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Text Area</label>
+            <textarea name="" id="" rows="10" cols="30"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
